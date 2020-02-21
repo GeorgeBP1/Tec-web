@@ -1,0 +1,55 @@
+#main-header{
+    position: fixed;
+    top:0px;
+    left: 150px;
+    right: 150px;
+    background-color:rgb(73, 73, 201);
+    
+    
+}
+#icono{
+    float: left;
+}
+nav {
+    color: white;
+	float: right;
+}
+	nav ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		padding-right: 20px;
+	}
+	
+		nav ul li {
+			display: inline-block;
+			line-height: 80px;
+		}
+			
+			nav ul li a {
+				display: block;
+				padding: 0 10px;
+                text-decoration: none;
+                color: white;
+            }
+            
+            li{
+                margin: 0px 20px;
+            }
+			
+				nav ul li a:hover {
+                    background: black;
+                    color: white;
+                }
+                
+                footer{
+                    color: white;
+                    margin: 0;
+		padding: 0;
+		list-style: none;
+        padding-right: 20px;
+        background-color: rgb(73, 73, 201);
+        display: block;
+				padding: 0 10px;
+				text-decoration: none;
+                }
