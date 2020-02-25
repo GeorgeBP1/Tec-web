@@ -6,20 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="cssTurismo/Principal.css">
+    <link rel="stylesheet" href="cssTurismo/menu.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
 
 <body>
-    <header>
-        <h1>CochalaTur</h1> <br>
+    <header>    
+        <br><br>
+        <h1>CochalaTur</h1>
 
         <h2>Ciudades</h2>
-        <nav id="main-header">
-            <img id="icono" src="https://image.flaticon.com/icons/png/512/2560/2560138.png" alt="turismo_icono" width="80">
-            
-            <ul>
-                
+        <nav">
+           <ul class="navigation">
+                <li><a href="#" onclick="MenuDesplegable()">&#9776; Menu</a></li>
+                <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Escudo_del_Cochabamba.svg/1200px-Escudo_del_Cochabamba.svg.png" alt="" width="30"></li>
                 <li><a href="Cochabamba.html">Cochabamba</a></li>
-                <li>Quillacollo</li>
+                <li><a href="Quillacollo.html">Quillacollo</a></li>
                 <li>Tiquipalla</li>
                 <li>Sacaba</li>
                 <li>Vinto</li>
@@ -27,7 +29,7 @@
             </ul>
         </nav>
     </header>
-
+   
     <h3>Acerca de Cochabamba</h3>
 
     <p> Cochabamba. Situado al centro de Bolivia, se ubica a 2558 msnm. Su capital es la ciudad de Cochabamba, que se
@@ -108,8 +110,9 @@
     </footer>
     <div>
         <p class="smaller">Copyright -C- 2020 | Jorge Blanco P. | Cochabamba </p>
+        
     </div>
-
+    <script src="js/menu.js"></script>  
 </body>
 
 </html>
