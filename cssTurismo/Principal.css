@@ -2,3 +2,38 @@
 #icono{
     float: left;
 }
+
+article {
+    background: rgba(81, 135, 194, 0.9);
+    padding: 20px;
+    margin: 20px 0;
+    color: rgb(12, 12, 12);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+    
+    
+}
+footer , .fecha {
+    
+    max-width: auto;
+    margin: auto;
+    background: rgba(81, 135, 194, 0.9);
+    padding: 20px;
+    margin: 20px 0;
+    color: rgb(12, 12, 12);
+    text-align: center;
+    -webkit-box-shadow: -1px 19px 16px -13px rgba(0,0,0,1);
+-moz-box-shadow: -1px 19px 16px -13px rgba(0,0,0,1);
+box-shadow: -1px 19px 16px -13px rgba(0,0,0,1);
+}
+body{
+    background: url(https://upload.wikimedia.org/wikipedia/commons/1/17/Ciudad_de_Cochabamba.jpg) no-repeat center center fixed;
+    background-size: 100vw 100vh;  
+}

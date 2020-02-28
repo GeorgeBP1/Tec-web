@@ -3,6 +3,7 @@ nav {
 	margin: 0 auto;
 	max-width: 760px;
 	background-color: #000;
+	
 }
 .navigation {
 	position: fixed;
@@ -15,6 +16,9 @@ nav {
 	background-image: url(https://besthqwallpapers.com/Uploads/21-6-2019/96356/thumb2-flag-of-cochabamba-department-4k-silk-flag-department-of-bolivia-cochabamba-department.jpg);
 	opacity: 0.85;
 	background-size: cover;
+	-webkit-box-shadow: 0px 6px 19px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 6px 19px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 6px 19px 0px rgba(0,0,0,0.75);
 	
 }
 .navigation li:first-child {
