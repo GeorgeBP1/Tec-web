@@ -13,7 +13,9 @@ nav {
 	text-align: center;
 	padding: 0;
 	background-image: url(https://besthqwallpapers.com/Uploads/21-6-2019/96356/thumb2-flag-of-cochabamba-department-4k-silk-flag-department-of-bolivia-cochabamba-department.jpg);
-    background-size: cover;
+	opacity: 0.85;
+	background-size: cover;
+	
 }
 .navigation li:first-child {
 	display: block;

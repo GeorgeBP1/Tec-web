@@ -3,35 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cssTurismo/formulario.css">
     <title>Document</title>
 </head>
 <body>
-    <div>
-     <div>
+    <div class="cont1">
+     <div class="form-top">
       <h2>Contacto</h2>
 
      </div>
-     <form action="">
+     <form class="form-reg" action="">
       <input class="input" type="text" placeholder="&#128100;Nombre" required autofocus>
       <input class="input" type="text" placeholder="&#128100;Apellidos" required autofocus>
       <input class="input" type="email" placeholder="&#128231;Correo Electronico" required>
       <input class="input" type="tel" placeholder="&#128222;Telefono" required>
-      <input class="input" type="text" placeholder="&#128273;Contraseña" required>
+      <input class="input" type="text" placeholder="&#128273;Contraseña" required><br>
       <input type="text" placeholder="&#128101;Tipo de usuario" list="tipouser">
       <datalist id="tipouser">
         <option>Administrador</option>
         <option>Usuario</option>
-      </datalist>
+      </datalist><br>
+
       <fieldset>
-          <legend>&#9892;Sexo <em>(seleccione)</em></legend>
+          <legend>&#9892;Sexo <em>(seleccione uno)</em></legend>
           <input type="radio" name="sexo" value="F"> Femenino
           <input type="radio" name="sexo" value="M"> Masculino
-      </fieldset>
+      </fieldset> <br>
 
       <textarea name="coment" placeholder="&#128441;Escriba sus comentarios: " cols="30" rows="10"></textarea>
      
 
-      <div>
+      <div class="btn-form">
        <input class="btn-submit" type="submit" value="ENVIAR">  
        <input class="btn-reset" type="reset" value="LIMPIAR">
       </div>
