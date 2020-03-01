@@ -16,9 +16,7 @@ article {
 .container {
     width: 90%;
     max-width: 1100px;
-    margin: auto;
-    
-    
+    margin: auto;   
 }
 footer , .fecha {
     
@@ -30,10 +28,29 @@ footer , .fecha {
     color: rgb(12, 12, 12);
     text-align: center;
     -webkit-box-shadow: -1px 19px 16px -13px rgba(0,0,0,1);
--moz-box-shadow: -1px 19px 16px -13px rgba(0,0,0,1);
-box-shadow: -1px 19px 16px -13px rgba(0,0,0,1);
+    -moz-box-shadow: -1px 19px 16px -13px rgba(0,0,0,1);
+    box-shadow: -1px 19px 16px -13px rgba(0,0,0,1);
+    clear: both;
 }
 body{
-    background: url(https://upload.wikimedia.org/wikipedia/commons/1/17/Ciudad_de_Cochabamba.jpg) no-repeat center center fixed;
+    background: url(https://www.quehacerenchile.cl/wp-content/uploads/2019/10/1020px-Vista_Aerea_del_Cristo_de_la_Concordia.jpg) no-repeat center center fixed;
     background-size: 100vw 100vh;  
+}
+#logo-titulo{
+    display: block;
+    background-image: url(https://shorthand-social.imgix.net/prod/story/ngN5ggdqmY/media/285bc7707a7311e6ad94fd498cdfb90c/original.jpg?w=1100&h=1100&fit=clip&fm=jpg&q=70&auto=format) ;
+    background-size: 100vw 100vh;  
+    width: 100%;
+    max-width: 100%;
+    margin: auto;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: -1px 15px 13px -11px rgba(0,0,0,1);
+    opacity: 0.9;
+    
+}
+.img-der{
+    float: left;
+    margin: 25px;
+    width: 150px;
 }
