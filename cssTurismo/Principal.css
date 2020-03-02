@@ -4,13 +4,15 @@
 }
 
 article {
-    background: rgba(81, 135, 194, 0.9);
+    background: rgba(136, 199, 255, 0.781);
     padding: 20px;
     margin: 20px 0;
     color: rgb(12, 12, 12);
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    font-family: 'Merriweather Sans';
+    font-size: 15px;
 }
 
 .container {
@@ -51,6 +53,12 @@ body{
 }
 .img-der{
     float: left;
-    margin: 25px;
+    margin: 15px;
     width: 150px;
+    
+}
+.img-izq{
+    float: right;
+    margin: 15px;
+    width: 350px;
 }
