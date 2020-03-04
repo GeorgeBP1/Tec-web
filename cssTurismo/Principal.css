@@ -4,7 +4,7 @@
 }
 
 article {
-    background: rgba(136, 199, 255, 0.781);
+    background: rgba(147, 197, 231, 0.842);
     padding: 20px;
     margin: 20px 0;
     color: rgb(12, 12, 12);
@@ -19,6 +19,7 @@ article {
     width: 90%;
     max-width: 1100px;
     margin: auto;   
+    padding: auto;
 }
 footer , .fecha {
     
