@@ -12,7 +12,8 @@ article {
     -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     font-family: 'Merriweather Sans';
-    font-size: 15px;
+    font-size: 21px;
+    overflow: hidden;
 }
 
 .container {
@@ -20,6 +21,7 @@ article {
     max-width: 1100px;
     margin: auto;   
     padding: auto;
+    
 }
 footer , .fecha {
     
@@ -47,6 +49,7 @@ body{
     max-width: 100%;
     margin: auto;
     text-align: center;
+    margin-top: 75px;
     border-radius: 20px;
     box-shadow: -1px 15px 13px -11px rgba(0,0,0,1);
     opacity: 0.9;
@@ -54,9 +57,9 @@ body{
 }
 .img-der{
     float: left;
-    margin: 15px;
-    width: 150px;
-    height: auto;
+    margin: 20px;
+    
+    
     max-width: 100%;
     box-shadow: -1px 15px 13px -11px rgba(0,0,0,1);
     
@@ -64,8 +67,23 @@ body{
 .img-izq{
     float: right;
     margin: 15px;
-    width: 300px;
-    height: auto;
+    
+    
     max-width: 100%;
     box-shadow: -1px 15px 13px -11px rgba(0,0,0,1);
+}
+#logo-cbba{
+    
+    background-image: url(https://shorthand-social.imgix.net/prod/story/ngN5ggdqmY/media/285bc7707a7311e6ad94fd498cdfb90c/original.jpg?w=1100&h=1100&fit=clip&fm=jpg&q=70&auto=format) ;
+    background-size: 100vw 100vh;  
+    width: 100%;
+    max-width: 100%;
+    margin: auto;
+    text-align: center;
+    margin-top: 75px;
+    border-radius: 20px;
+
+    box-shadow: -1px 15px 13px -11px rgba(0,0,0,1);
+    opacity: 0.9;
+    
 }
